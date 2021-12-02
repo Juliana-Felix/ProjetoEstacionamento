@@ -15,6 +15,7 @@ O projeto tem o objetivo de realizar a gestão do estacionamento, possibilitando
 
 A solução roda no terminal utilizando o JDK.
 
+A classe ArrayList é utilizado para fazer a gestão de dados, que é criado uma lista de objetos, a lista é encadeada, portanto não é necessário colocar a quantidade de elementos no momento da instanciação. Sempre que uma vaga é cadastrada, ela é adicionada a lista uma instanciação do objeto com os dados que foram prenchidos pelo usuário, ao final, quando é necessário apagar alguma vaga é localizado utilizando o atributo do objeto "ID" o local onde consta na lista o objeto instanciado e removido utiliando a função "remove" da classe.
 
 
 # Programa em funcionamento:
@@ -38,7 +39,8 @@ selecionando a opção “3 – Opções de Administrador” é direcionado para
 
 ![image](https://user-images.githubusercontent.com/83127826/144338745-490d8137-6ba9-40ae-80e5-b864d9bb2fc6.png)
 
-Essa tela é restrita apenas para administradores, portanto é necessário digitar a palavra passe para ter acesso. Nessa tela é possível alterar a quantidade de vagas totais no estacionamento, realizar o check-out de um usuario, e listar a vagas preenchidas. Ao final é retornado a tela de menu, selecionando a opção “0 – Encerrar” o software encerra. 
+Essa tela é restrita apenas para administradores, portanto é necessário digitar a palavra passe para ter acesso. Nessa tela é possível alterar a quantidade de vagas totais no estacionamento, realizar o check-out de um usuario, e listar a vagas preenchidas. Ao final é retornado a tela de menu, selecionando a opção “0 – Encerrar” o software encerra.
+
 
 
 
